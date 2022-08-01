@@ -6,20 +6,20 @@ from django.db import migrations
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('products', '0001_initial'),
+        ("products", "0001_initial"),
     ]
 
     operations = [
         migrations.AlterModelOptions(
-            name='category',
-            options={'verbose_name': 'Категория', 'verbose_name_plural': 'Категории'},
+            name="category",
+            options={"verbose_name": "Категория", "verbose_name_plural": "Категории"},
         ),
         migrations.AlterModelOptions(
-            name='product',
-            options={'verbose_name': 'Продукт', 'verbose_name_plural': 'Продукты'},
+            name="product",
+            options={"verbose_name": "Продукт", "verbose_name_plural": "Продукты"},
         ),
         migrations.AlterModelOptions(
-            name='review',
-            options={'verbose_name': 'Отзыв', 'verbose_name_plural': 'Отзывы'},
+            name="review",
+            options={"verbose_name": "Отзыв", "verbose_name_plural": "Отзывы"},
         ),
     ]
